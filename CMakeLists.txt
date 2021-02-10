@@ -202,5 +202,5 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-add_executable(muhizia src/test.cpp)
-target_link_libraries(hello ${catkin_LIBRARIES})
+add_executable(muhizia src/muhizia.cpp)
+target_link_libraries(muhizia ${catkin_LIBRARIES})
