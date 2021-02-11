@@ -1,1 +1,2 @@
-# coro_test
+# coro_project
+Hello world using ROS (Robotic Operationg System)
