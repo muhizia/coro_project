@@ -204,3 +204,6 @@ include_directories(
 # catkin_add_nosetests(test)
 add_executable(muhizia src/muhizia.cpp)
 target_link_libraries(muhizia ${catkin_LIBRARIES})
+
+add_executable(pubvel src/pubvel.cpp)
+target_link_libraries(pubvel ${catkin_LIBRARIES})
